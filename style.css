@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+    font-family: Inter, sans-serif;
+    font-style: normal;
+}
+
+#root{
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 400px;
+    min-width: 200px;
+    background-color: rgb(148, 13, 119);
+    color: white;
+    border-radius: 0px 0px 10px 10px;
+    margin: 15px auto;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.info img{
+    max-width:400px;
+    border-radius: 10px 10px 0px 0px ;
+}
+.name{
+font-weight: 700;
+font-size: 30px;
+line-height: 30px;
+text-align: center;
+margin-top: 20px;
+margin-bottom: 0
+}
+
+.job{
+font-weight: 400;
+font-size: 20px;
+
+text-align: center; 
+margin-bottom: 0;
+margin-top: 5px;
+color: fuchsia
+}
+
+.site{
+font-weight: 400;
+font-size: 14px;
+
+margin-top: 10px;
+}
+
+
+
+p{
+    margin: 0;
+    font-size: 14px;
+
+}
+
+h2{
+    font-size: 20px;
+    margin-bottom: .5rem;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+background-color: orange;
+width:400px;
+border-radius:  0px 0px 10px 10px;
+margin-top: 2rem;
+padding: 1.5rem;
+}
+
+
+.text{
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+padding-left: 2rem;
+}
